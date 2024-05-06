@@ -17,13 +17,13 @@ function App() {
         <p>count is: { counter }</p>
         <p>
           <button type="button" onClick={ () => dispatch( increment() ) }>
-            Increment
+            Incremento
           </button>
           <button type="button" onClick={ () => dispatch( decrement() ) }>
-            Decrement
+            Decremento
           </button>
-          <button type="button" onClick={ () => dispatch( incrementBy(2) ) }>
-            Increment by 2
+          <button type="button" onClick={ () => dispatch( incrementBy(10) ) }>
+            +10
           </button>
         </p>
         
